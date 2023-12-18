@@ -1,0 +1,107 @@
+*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+   
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(207, 17, 150);
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: capitalize;    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    background: rgba(8, 205, 211, 0);
+    margin: 0%;
+    box-shadow: 1px 1px #888888;
+    border-radius: 10px;
+}
+.nav_brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px #888888;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem ;
+    margin-right: 50px;
+}
+.nav_toggler div{
+width: 2.5rem;
+height:0.2rem;
+margin: 0.4rem;
+background: darkgray;
+transition: 0.4s ease-in;
+}
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+.nav_menu a:hover{
+    background-color:rgb(207, 17, 150);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.nav:hover{
+    box-shadow: 1px 1px rgb(206, 9, 224);
+}
+.nav_brand:hover{
+    text-shadow: 3px 2px rgb(206, 9, 224);
+}
+.custom-select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .nav_item{
+    text-align: center;
+  }
+  .nav_menu a:hover{
+    background-color:rgb(207, 17, 150);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.input1{
+    height: 20px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgba(207, 17, 150,0.1);
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: overline;
+}
+.btn11{
+    border-radius: 0px 10px 10px 0px;
+    height: 25px;
+}
+.input1:hover{
+
+    border-color: rgb(207, 17, 150);
+
+    scale: 1.1;
+}
+.btn11:hover{
+    border-color: rgb(207, 17, 150);
+    scale: 1.1;
+}
